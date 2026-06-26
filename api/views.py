@@ -3,91 +3,101 @@ from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 import json
 
-# Data dummy di memori
-mahasiswa = [
+# Data dummy di memori menggunakan format asisten
+asisten = [
     {
         "id": 1,
-        "nama": "Vellaro",
-        "jurusan": "Sistem Komputer"
+        "nama asisten": "Muhammad Idham Faiq",
+        "asisten praktikum": "Mikrokontroler"
+    },
+    {
+        "id": 2,
+        "nama asisten": "Fadias Virgiansyah",
+        "asisten praktikum": "Jaringan Komputer"
     }
 ]
 
-@csrf_exempt  # Dipasang agar Django mengizinkan request POST tanpa token keamanan CSRF untuk sementara
-def mahasiswa_api(request):
+@csrf_exempt
+def asisten_api(request):
     
     # 1. Menampilkan Data (GET)
     if request.method == "GET":
         return JsonResponse({
             "method": "GET",
-            "data": mahasiswa
+            "data": asisten
         })
         
     # 2. Menambah Data Baru (POST)
     elif request.method == "POST":
-        # Membaca data JSON yang dikirim oleh Postman
         data_baru = json.loads(request.body)
         
-        # Memasukkan data baru ke dalam list mahasiswa
-        mahasiswa.append(data_baru)
-        
+        # Validasi pastikan key bahasa Indonesia ada
+        if "id" not in data_baru or "nama asisten" not in data_baru or "asisten praktikum" not in data_baru:
+            return JsonResponse({
+                "message": "ID, nama asisten, dan asisten praktikum harus dikirim lengkap!"
+            }, status=400)
+            
+        asisten.append(data_baru)
         return JsonResponse({
             "method": "POST",
             "message": "Data berhasil ditambahkan!",
             "data": data_baru
         }, status=201)
+
     # 3. Memperbarui Data (PUT)
     elif request.method == "PUT":
         data_update = json.loads(request.body)
-        id_target = data_update.get("id") # Mengambil ID mahasiswa yang mau diedit
+        id_target = data_update.get("id")
         
-        # Cari datanya di dalam list berdasarkan id
-        for mhs in mahasiswa:
-            if mhs["id"] == id_target:
-                mhs["nama"] = data_update.get("nama", mhs["nama"])
-                mhs["jurusan"] = data_update.get("jurusan", mhs["jurusan"])
+        if not id_target or "nama asisten" not in data_update or "asisten praktikum" not in data_update:
+            return JsonResponse({
+                "message": "ID, nama asisten, dan asisten praktikum harus dikirim lengkap!"
+            }, status=400)
+        
+        for ast in asisten:
+            if ast["id"] == id_target:
+                ast["nama asisten"] = data_update.get("nama asisten")
+                ast["asisten praktikum"] = data_update.get("asisten praktikum")
                 
                 return JsonResponse({
                     "method": "PUT",
                     "message": f"Data dengan ID {id_target} berhasil diperbarui!",
-                    "data": mhs
+                    "data": ast
                 }, status=200)
-            # Jika ID tidak ditemukan di dalam list
-        return JsonResponse({
-            "message": f"Data dengan ID {id_target} tidak ditemukan!"
-        }, status=404)
+                
+        return JsonResponse({"message": f"Data dengan ID {id_target} tidak ditemukan!"}, status=404)
+
     # 4. Memperbarui Data Sebagian (PATCH)
     elif request.method == "PATCH":
         data_patch = json.loads(request.body)
         id_target = data_patch.get("id")
         
-        for mhs in mahasiswa:
-            if mhs["id"] == id_target:
-                # Menggunakan if terpisah agar hanya mengupdate field yang dikirim saja
-                if "nama" in data_patch:
-                    mhs["nama"] = data_patch["nama"]
-                if "jurusan" in data_patch:
-                    mhs["jurusan"] = data_patch["jurusan"]
+        for ast in asisten:
+            if ast["id"] == id_target:
+                if "nama asisten" in data_patch:
+                    ast["nama asisten"] = data_patch["nama asisten"]
+                if "asisten praktikum" in data_patch:
+                    ast["asisten praktikum"] = data_patch["asisten praktikum"]
                     
                 return JsonResponse({
                     "method": "PATCH",
                     "message": f"Bagian data dengan ID {id_target} berhasil diubah!",
-                    "data": mhs
+                    "data": ast
                 }, status=200)
                 
         return JsonResponse({"message": f"Data ID {id_target} tidak ditemukan!"}, status=404)
+
     # 5. Menghapus Data (DELETE)
     elif request.method == "DELETE":
         data_delete = json.loads(request.body)
-        id_target = data_delete.get("id") # Mengambil ID yang mau dihapus
+        id_target = data_delete.get("id")
         
-        for mhs in mahasiswa:
-            if mhs["id"] == id_target:
-                mahasiswa.remove(mhs) # Menghapus data dari list mahasiswa
-                
+        for ast in asisten:
+            if ast["id"] == id_target:
+                asisten.remove(ast)
                 return JsonResponse({
                     "method": "DELETE",
                     "message": f"Data dengan ID {id_target} berhasil dihapus!"
                 }, status=200)
                 
         return JsonResponse({"message": f"Data ID {id_target} tidak ditemukan!"}, status=404)
-            

@@ -8,3 +8,140 @@ WARNING 2026-06-26 13:19:22,886 log "PUT /api/mahasiswa/ HTTP/1.1" 404 48
 INFO 2026-06-26 13:19:30,049 log "GET /api/mahasiswa/ HTTP/1.1" 200 146
 INFO 2026-06-26 13:19:46,849 log "GET /api/mahasiswa/ HTTP/1.1" 200 146
 INFO 2026-06-26 13:19:46,851 log "GET /api/mahasiswa/ HTTP/1.1" 200 146
+INFO 2026-06-26 13:30:49,364 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 13:30:53,310 log "POST /api/mahasiswa/ HTTP/1.1" 201 132
+INFO 2026-06-26 13:30:57,938 log "GET /api/mahasiswa/ HTTP/1.1" 200 152
+INFO 2026-06-26 13:34:04,370 log "GET /api/mahasiswa/ HTTP/1.1" 200 152
+INFO 2026-06-26 13:34:04,372 log "GET /api/mahasiswa/ HTTP/1.1" 200 152
+INFO 2026-06-26 18:17:41,718 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 18:17:57,910 log "GET /api/mahasiswa/ HTTP/1.1" 200 87
+INFO 2026-06-26 18:17:57,912 log "GET /api/mahasiswa/ HTTP/1.1" 200 87
+INFO 2026-06-26 18:21:20,815 log "GET /api/mahasiswa/ HTTP/1.1" 200 87
+INFO 2026-06-26 18:21:25,915 log "POST /api/mahasiswa/ HTTP/1.1" 201 132
+INFO 2026-06-26 18:22:54,313 log "GET /api/mahasiswa/ HTTP/1.1" 200 152
+WARNING 2026-06-26 18:22:55,568 log Not Found: /favicon.ico
+WARNING 2026-06-26 18:22:55,569 log "GET /favicon.ico HTTP/1.1" 404 2365
+INFO 2026-06-26 18:23:14,825 log "GET /api/mahasiswa/ HTTP/1.1" 200 152
+INFO 2026-06-26 18:23:14,827 log "GET /api/mahasiswa/ HTTP/1.1" 200 152
+INFO 2026-06-26 18:35:47,558 log "GET /api/mahasiswa/ HTTP/1.1" 200 152
+INFO 2026-06-26 18:35:47,561 log "GET /api/mahasiswa/ HTTP/1.1" 200 152
+INFO 2026-06-26 18:36:13,373 log "GET /api/mahasiswa/ HTTP/1.1" 200 152
+INFO 2026-06-26 18:36:17,699 log "GET /api/mahasiswa/ HTTP/1.1" 200 152
+INFO 2026-06-26 18:36:25,674 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 18:36:34,374 log "GET /api/mahasiswa/ HTTP/1.1" 200 87
+INFO 2026-06-26 18:36:36,879 log "GET /api/mahasiswa/ HTTP/1.1" 200 87
+INFO 2026-06-26 18:36:37,329 log "GET /api/mahasiswa/ HTTP/1.1" 200 87
+INFO 2026-06-26 18:37:06,337 log "GET /api/mahasiswa/ HTTP/1.1" 200 87
+INFO 2026-06-26 18:37:06,341 log "GET /api/mahasiswa/ HTTP/1.1" 200 87
+INFO 2026-06-26 18:38:49,961 autoreload C:\django\belajar-django-api\api\views.py changed, reloading.
+INFO 2026-06-26 18:38:50,813 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 18:38:57,156 autoreload C:\django\belajar-django-api\api\views.py changed, reloading.
+INFO 2026-06-26 18:38:57,826 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 18:39:02,113 autoreload C:\django\belajar-django-api\api\views.py changed, reloading.
+INFO 2026-06-26 18:39:02,771 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 18:39:04,007 autoreload C:\django\belajar-django-api\api\views.py changed, reloading.
+INFO 2026-06-26 18:39:04,701 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 18:39:22,385 autoreload C:\django\belajar-django-api\api\views.py changed, reloading.
+INFO 2026-06-26 18:39:23,080 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 18:39:24,320 autoreload C:\django\belajar-django-api\api\views.py changed, reloading.
+INFO 2026-06-26 18:39:25,051 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 18:39:26,270 autoreload C:\django\belajar-django-api\api\views.py changed, reloading.
+INFO 2026-06-26 18:39:27,036 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 18:39:32,403 autoreload C:\django\belajar-django-api\api\views.py changed, reloading.
+INFO 2026-06-26 18:39:33,060 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 18:39:36,218 autoreload C:\django\belajar-django-api\api\views.py changed, reloading.
+INFO 2026-06-26 18:39:36,938 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 18:39:38,065 autoreload C:\django\belajar-django-api\api\views.py changed, reloading.
+INFO 2026-06-26 18:39:38,737 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 18:40:10,776 autoreload C:\django\belajar-django-api\api\views.py changed, reloading.
+INFO 2026-06-26 18:40:11,548 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 18:40:15,861 autoreload C:\django\belajar-django-api\api\views.py changed, reloading.
+INFO 2026-06-26 18:40:16,502 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 18:40:34,028 autoreload C:\django\belajar-django-api\api\views.py changed, reloading.
+INFO 2026-06-26 18:40:34,807 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 18:49:30,492 autoreload C:\django\belajar-django-api\api\views.py changed, reloading.
+INFO 2026-06-26 18:49:31,108 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 18:49:32,225 autoreload C:\django\belajar-django-api\api\views.py changed, reloading.
+INFO 2026-06-26 18:49:32,860 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 18:50:21,281 autoreload C:\django\belajar-django-api\config\urls.py changed, reloading.
+INFO 2026-06-26 18:50:21,992 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 18:50:24,133 autoreload C:\django\belajar-django-api\config\urls.py changed, reloading.
+INFO 2026-06-26 18:50:24,820 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 18:50:44,081 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 18:51:28,326 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 18:52:27,904 autoreload C:\django\belajar-django-api\config\urls.py changed, reloading.
+INFO 2026-06-26 18:52:28,671 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 18:52:30,962 autoreload C:\django\belajar-django-api\config\urls.py changed, reloading.
+INFO 2026-06-26 18:52:31,641 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 18:52:38,695 autoreload Watching for file changes with StatReloader
+WARNING 2026-06-26 18:54:37,179 log Not Found: /
+WARNING 2026-06-26 18:54:37,180 log "GET / HTTP/1.1" 404 2332
+INFO 2026-06-26 18:56:17,544 log "GET /api/asisten/ HTTP/1.1" 200 207
+INFO 2026-06-26 18:56:45,202 log "GET /api/asisten/ HTTP/1.1" 200 207
+INFO 2026-06-26 18:57:05,056 log "GET /api/asisten/ HTTP/1.1" 200 207
+INFO 2026-06-26 18:58:45,923 log "GET /api/asisten/ HTTP/1.1" 200 207
+INFO 2026-06-26 18:59:01,169 log "GET /api/asisten/ HTTP/1.1" 200 207
+WARNING 2026-06-26 18:59:10,168 log Not Found: /api/mahasiswa/
+WARNING 2026-06-26 18:59:10,169 log "POST /api/mahasiswa/ HTTP/1.1" 404 2393
+INFO 2026-06-26 18:59:34,135 log "GET /api/asisten/ HTTP/1.1" 200 207
+WARNING 2026-06-26 18:59:53,974 log Not Found: /api/mahasiswa/
+WARNING 2026-06-26 18:59:53,975 log "GET /api/mahasiswa/ HTTP/1.1" 404 2392
+WARNING 2026-06-26 18:59:53,984 log Not Found: /api/mahasiswa/
+WARNING 2026-06-26 18:59:53,985 log "GET /api/mahasiswa/ HTTP/1.1" 404 2392
+WARNING 2026-06-26 19:02:48,298 log Bad Request: /api/asisten/
+WARNING 2026-06-26 19:02:48,299 log "POST /api/asisten/ HTTP/1.1" 400 62
+WARNING 2026-06-26 19:03:01,543 log Bad Request: /api/asisten/
+WARNING 2026-06-26 19:03:01,544 log "PUT /api/asisten/ HTTP/1.1" 400 77
+INFO 2026-06-26 19:03:48,659 log "PATCH /api/asisten/ HTTP/1.1" 200 171
+WARNING 2026-06-26 19:04:07,444 log Not Found: /api/mahasiswa/
+WARNING 2026-06-26 19:04:07,444 log "DELETE /api/mahasiswa/ HTTP/1.1" 404 2395
+INFO 2026-06-26 19:07:29,905 log "GET /api/asisten/ HTTP/1.1" 200 207
+WARNING 2026-06-26 19:08:48,122 log Bad Request: /api/asisten/
+WARNING 2026-06-26 19:08:48,122 log "POST /api/asisten/ HTTP/1.1" 400 62
+WARNING 2026-06-26 19:09:34,083 log Bad Request: /api/asisten/
+WARNING 2026-06-26 19:09:34,083 log "PUT /api/asisten/ HTTP/1.1" 400 77
+INFO 2026-06-26 19:12:31,310 autoreload C:\django\belajar-django-api\api\views.py changed, reloading.
+INFO 2026-06-26 19:12:31,900 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 19:12:33,012 autoreload C:\django\belajar-django-api\api\views.py changed, reloading.
+INFO 2026-06-26 19:12:33,538 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 19:12:40,847 autoreload C:\django\belajar-django-api\api\views.py changed, reloading.
+INFO 2026-06-26 19:12:41,391 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 19:15:50,021 autoreload C:\django\belajar-django-api\config\urls.py changed, reloading.
+INFO 2026-06-26 19:15:50,556 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 19:15:56,834 autoreload C:\django\belajar-django-api\api\views.py changed, reloading.
+INFO 2026-06-26 19:15:57,354 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 19:16:15,351 log "GET /api/asisten/ HTTP/1.1" 200 207
+INFO 2026-06-26 19:16:23,951 log "GET /api/asisten/ HTTP/1.1" 200 207
+INFO 2026-06-26 19:16:35,798 log "POST /api/asisten/ HTTP/1.1" 201 143
+INFO 2026-06-26 19:16:45,986 log "PUT /api/asisten/ HTTP/1.1" 200 153
+INFO 2026-06-26 19:16:56,551 log "PATCH /api/asisten/ HTTP/1.1" 200 171
+INFO 2026-06-26 19:18:06,515 log "PATCH /api/asisten/ HTTP/1.1" 200 172
+INFO 2026-06-26 19:18:17,018 log "DELETE /api/asisten/ HTTP/1.1" 200 69
+INFO 2026-06-26 19:18:24,378 log "GET /api/asisten/ HTTP/1.1" 200 193
+INFO 2026-06-26 19:18:36,499 log "GET /api/asisten/ HTTP/1.1" 200 193
+INFO 2026-06-26 19:18:41,160 log "GET /api/asisten/ HTTP/1.1" 200 193
+INFO 2026-06-26 19:19:20,658 log "GET /api/asisten/ HTTP/1.1" 200 193
+WARNING 2026-06-26 19:19:53,277 log Not Found: /api/mahasiswa/
+WARNING 2026-06-26 19:19:53,277 log "GET /api/mahasiswa/ HTTP/1.1" 404 2392
+WARNING 2026-06-26 19:19:53,281 log Not Found: /api/mahasiswa/
+WARNING 2026-06-26 19:19:53,281 log "GET /api/mahasiswa/ HTTP/1.1" 404 2392
+INFO 2026-06-26 19:21:57,177 log "GET /api/asisten/ HTTP/1.1" 200 193
+INFO 2026-06-26 19:21:57,179 log "GET /api/asisten/ HTTP/1.1" 200 193
+INFO 2026-06-26 19:22:16,070 log "GET /api/asisten/ HTTP/1.1" 200 193
+INFO 2026-06-26 19:22:16,072 log "GET /api/asisten/ HTTP/1.1" 200 193
+INFO 2026-06-26 19:22:52,557 log "GET /api/asisten/ HTTP/1.1" 200 193
+INFO 2026-06-26 19:23:56,492 log "POST /api/asisten/ HTTP/1.1" 201 158
+INFO 2026-06-26 19:24:02,705 log "GET /api/asisten/ HTTP/1.1" 200 284
+INFO 2026-06-26 19:24:13,907 log "GET /api/asisten/ HTTP/1.1" 200 284
+INFO 2026-06-26 19:24:13,908 log "GET /api/asisten/ HTTP/1.1" 200 284
+INFO 2026-06-26 19:24:37,269 log "PUT /api/asisten/ HTTP/1.1" 200 153
+INFO 2026-06-26 19:24:47,385 log "GET /api/asisten/ HTTP/1.1" 200 269
+INFO 2026-06-26 19:25:05,853 log "POST /api/asisten/ HTTP/1.1" 201 158
+INFO 2026-06-26 19:25:11,186 log "GET /api/asisten/ HTTP/1.1" 200 360
+INFO 2026-06-26 19:25:25,719 log "DELETE /api/asisten/ HTTP/1.1" 200 69
+INFO 2026-06-26 19:25:30,646 log "DELETE /api/asisten/ HTTP/1.1" 200 69
+INFO 2026-06-26 19:25:34,828 log "GET /api/asisten/ HTTP/1.1" 200 208
+INFO 2026-06-26 19:26:11,387 log "POST /api/asisten/ HTTP/1.1" 201 143
+INFO 2026-06-26 19:26:17,310 log "GET /api/asisten/ HTTP/1.1" 200 284
+INFO 2026-06-26 19:26:23,036 log "GET /api/asisten/ HTTP/1.1" 200 284
+INFO 2026-06-26 19:26:23,038 log "GET /api/asisten/ HTTP/1.1" 200 284
