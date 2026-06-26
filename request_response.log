@@ -145,3 +145,12 @@ INFO 2026-06-26 19:26:11,387 log "POST /api/asisten/ HTTP/1.1" 201 143
 INFO 2026-06-26 19:26:17,310 log "GET /api/asisten/ HTTP/1.1" 200 284
 INFO 2026-06-26 19:26:23,036 log "GET /api/asisten/ HTTP/1.1" 200 284
 INFO 2026-06-26 19:26:23,038 log "GET /api/asisten/ HTTP/1.1" 200 284
+INFO 2026-06-26 19:32:46,344 autoreload Watching for file changes with StatReloader
+INFO 2026-06-26 19:32:58,600 log "GET /api/asisten/ HTTP/1.1" 200 207
+INFO 2026-06-26 19:32:58,601 log "GET /api/asisten/ HTTP/1.1" 200 207
+INFO 2026-06-26 19:33:20,169 log "GET /api/asisten/ HTTP/1.1" 200 207
+INFO 2026-06-26 19:33:26,252 log "POST /api/asisten/ HTTP/1.1" 201 143
+INFO 2026-06-26 19:33:32,043 log "GET /api/asisten/ HTTP/1.1" 200 283
+INFO 2026-06-26 19:33:42,147 log "GET /api/asisten/ HTTP/1.1" 200 283
+INFO 2026-06-26 19:33:42,149 log "GET /api/asisten/ HTTP/1.1" 200 283
+INFO 2026-06-26 19:34:19,175 log "GET /api/asisten/ HTTP/1.1" 200 283
